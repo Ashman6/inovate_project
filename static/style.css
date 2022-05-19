@@ -1,0 +1,114 @@
+@font-face{
+    font-family:organ;
+    src: url(Eatday.ttf);
+}
+
+@font-face{
+    font-family:organs;
+    src: url(Mabook.ttf);
+}
+
+@font-face{
+    font-family:jet;
+    src: url(Blackbook.ttf);
+}
+
+@font-face{
+    font-family:jets;
+    src: url(Trainspotter.ttf);
+}
+
+@font-face{
+    font-family:turn;
+    src: url(Trainspotter3D.ttf);
+}
+
+@font-face{
+    font-family:turns;
+    src: url(SoMeFlOwErS.ttf);
+}
+
+h1{ 
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'organ', cursive;
+    color:red ;
+}
+
+
+
+body {
+    background-color: greenyellow;
+    margin: 6px;
+    padding-left: 14px;
+}
+
+/* h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+} */
+
+footer{
+    color:black;
+    font-size: 22px;
+}
+
+nav {
+    display: flex;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a li:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.gallery{
+    display:flex;
+    justify-content:space-around;
+}
+
+
+.font1 {
+    display:flex;
+    justify-content:space-around;
+    font-family: 'organs', cursive;
+}
+
+.font2 {
+    display:flex;
+    justify-content:space-around;
+    font-family: 'organ', cursive;
+}
+
+.font3 {
+    display:flex;
+    justify-content:space-around;
+    font-family: 'jet', cursive;
+}
+
+.font4 {
+    display:flex;
+    justify-content:space-around;
+    font-family: 'jets', cursive;
+}
+
+.font5 {
+    display:flex;
+    justify-content:space-around;
+    font-family: 'turn', cursive;
+}
+
+.font6 {
+    display:flex;
+    justify-content:space-around;
+    font-family: 'turns', cursive;
+}
