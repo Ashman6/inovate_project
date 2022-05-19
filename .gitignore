@@ -1,4 +1,4 @@
 # ignore ALL .log files
 # *.log
 
-flask_venv
+venv2
