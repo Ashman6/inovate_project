@@ -75,12 +75,17 @@ nav a li:hover {
     display:flex;
     justify-content:space-around;
 }
+.gallery p{
+    margin-left: 6px;
+    margin-right: 6px;
+}
 
 
 .font1 {
     display:flex;
     justify-content:space-around;
     font-family: 'organs', cursive;
+    margin: 0px 6px 0px 6px;
 }
 
 .font2 {
@@ -111,4 +116,43 @@ nav a li:hover {
     display:flex;
     justify-content:space-around;
     font-family: 'turns', cursive;
+}
+
+/* body{
+    padding: 0;
+    margin: 0;
+    background: #8AF3F9;
+    background-size: cover;
+}
+
+.spinner1{
+    display:block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -60px 0 0 -280px;
+    -webkit-transition: -webkit-transform 1s;
+}
+
+.spinne1:hover{
+    -webkit-transform: rotate(360deg) translateZ(0);
+} */
+
+@keyframes spin{
+    from { transform: rotateZ(0deg); }
+    to { transform: rotateZ(360deg); }
+
+}
+
+.spinning{
+    animation: spin 2s infinite;
+}
+
+
+
+.prop{
+    background-image: url('background4');
+    
 }
