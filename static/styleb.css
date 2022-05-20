@@ -1,0 +1,45 @@
+/* .content{
+    width:70%;
+    
+    background-color: rgba(71, 231, 49);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+} */
+
+.content{
+
+    width:70%;
+    background-color: rgba(71, 231, 49, 0.7);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@font-face{
+    font-family:turn;
+    src: url(Trainspotter3D.ttf);
+}
+
+@font-face{
+    font-family:organ;
+    src: url(Eatday.ttf);
+}
+
+.page1{
+    font-family: 'turn', cursive;
+    font-size: 50px;
+    color: blue;
+}
+
+.page1b{
+    font-family: 'organ', cursive;
+    font-size: 40px;
+    color: blue;
+}
+
+.body1{
+    background-image: url('001.png');
+    border: 20px;
+    
+}

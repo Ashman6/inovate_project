@@ -3,7 +3,7 @@
 {% block content %}
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-    Launch static backdrop modal
+    more info
   </button>
   
   <!-- Modal -->
@@ -11,23 +11,37 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <h5 class="modal-title" id="staticBackdropLabel">Is this the animal for you add to cart at the bottom</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          ...
+          <P class="page1">I choose you!</P>
+
+          <img src="static/images/bulbasaur.jpg" alt="codenation">
+
+          <P class="page1b">Do you choose me...</P>
+
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Understood</button>
+          <button type="button" class="btn btn-primary">Add to pet cart</button>
         </div>
       </div>
     </div>
   </div>
-<h3>Welcomeary </h3>
-<h3>fgbbetbetbtrbetve</h3>
 
-<p>here</p>
-<img src="static/images/009.png" alt="codenation">
-<a href="{{ url_for('my_view.futurepagetwo') }}"><li>back</li></a>
+<div class="content">
+
+
+  <h3>Welcome to animal paradise theres no better place on Earth except in the arms of a loving owner, here you will find a pet to suit your personality, here a pet sanctuary we treat our animals better then humans</h3>
+  <!-- <h3>welcome to animal sanctuary homepage fgbbetbetbtrbetve</h3> -->
+  
+  <p>here you will find info about animal</p>
+  
+  <img src="static/images/009.png" alt="codenation">
+  <a href="{{ url_for('my_view.futurepagetwo') }}"><li>back</li></a>
+
+
+</div>
+
 {% endblock %}
